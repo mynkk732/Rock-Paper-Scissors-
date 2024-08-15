@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-2{
+    border: 2px solid black;
+    width: 60%;
+    margin: 45px auto;
+    text-align: center;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #9bcffa;
+    padding: 10px;
+}
+
+.gridUser{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#result{
+    margin: 10px 20px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: x-large;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#btnReset{
+    padding: 10px 20px;
+    background-color: rgb(75, 252, 75);
+    color: black;
+    font-weight:600;
+}
+
+
+    

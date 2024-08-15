@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange-2</title>
+    <link rel="stylesheet" href="chlng-2.css">
+</head>
+
+<body>
+    <div class="container-2">
+        <div class="heading-text">
+            <h2>Rock, Paper, Scissor</h2>
+        </div>
+        <div class="gridContainer">
+          <div class="gridUser">
+            <h4>User Section</h4>
+            <div>
+            <img src="https://brendan-fisher.github.io/rock_paper_scissors/images/rock.png" id="userRock" value="1" alt="rock" height="150px" width="150px" onclick="getResult(1)">
+            <img src="https://brendan-fisher.github.io/rock_paper_scissors/images/paper.png" id="userPaper" value="2" alt="paper" height="150px" width="150px" onclick="getResult(2)">
+            <img src="https://static.thenounproject.com/png/88666-200.png" id="userScissor" alt="scissor" value="3" height="150px" width="150px" onclick="getResult(3)">
+           </div>
+        </div>
+          <div class="gridUser">
+            <h4>Robo section</h4>
+            <div>
+                <img src="https://brendan-fisher.github.io/rock_paper_scissors/images/rock.png" id="roboRock" alt="rock" height="150px" width="150px">
+                <img src="https://brendan-fisher.github.io/rock_paper_scissors/images/paper.png" id="roboPaper" alt="paper" height="150px" width="150px">
+                <img src="https://static.thenounproject.com/png/88666-200.png" id="roboScissor" alt="scissor" height="150px" width="150px">
+               </div>
+          </div>
+        </div>
+        <div>
+            <h4 id="result">Result</h4>
+        </div>
+    </div>
+
+    <div class="btnContainer">
+        <button id="btnReset" onclick="resetAll()">Reset</button>
+    </div>
+    <script src="chlng-2.js"></script>
+</body>
+
+</html>
